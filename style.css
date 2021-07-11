@@ -1,0 +1,77 @@
+/* Fondo */
+body {
+
+    background-image: url("img/fondo.jpg"); 
+    color: white;
+    background-repeat: no-repeat;
+    background-position: top;
+      
+}
+/* Tipografias */
+#GoblinOne {
+    font-family: 'Goblin One', cursive;
+    color: yellow;
+    width: 40%;
+    font-size: 30px;
+}
+
+h3.Farro {
+    font-family: 'Farro', sans-serif;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+li.Itim {
+    font-family: 'Itim', cursive;
+}
+
+/* Hipervínculos */
+.bordi {
+    margin: 12px;
+}
+
+.Hipervínculos {
+    background-color: rgba(135, 206, 235, 0.8);
+    width: 60%;
+    display: inline;
+    float: right;
+    font-size: 28px;
+    padding: 10px;
+}
+
+/* Funciones de los hipervínculos */
+a:active{
+    border: 7px outset greenyellow;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(161, 31, 161);
+}
+
+
+.card {
+    font-size: 14px;
+    width: 20%;
+    display: inline-flex;
+    color: black;
+}
+
+#targetas {
+    display: flex;
+    justify-content: space-around;  
+}
+
+#relleno {
+    color: white;
+}
+
+

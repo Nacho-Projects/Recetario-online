@@ -1,0 +1,78 @@
+/* Fondo */
+body {
+
+    background-image: url("imgBA/2doFondo.jpg"); 
+    color: white;
+    background-repeat: no-repeat;
+    background-position: top;
+      
+}
+/* Tipografias */
+#GoblinOne {
+    font-family: 'Goblin One', cursive;
+    color: orange;
+    width: 50%;
+    font-size: 30px;
+}
+
+h3.Farro {
+    font-family: 'Farro', sans-serif;
+    color: rgb(95, 158, 160);
+    font-size: 20px;
+}
+
+li.Itim {
+    font-family: 'Itim', cursive;
+}
+
+/* Hipervínculos */
+.bordi {
+    margin: 12px;
+}
+
+.card {
+    font-size: 14px;
+    width: 20%;
+    display: inline-flex;
+    color: black;
+}
+
+#targetas {
+    display: flex;
+    justify-content: space-around;  
+}
+
+#volveracasa {
+
+    background-color: rgb(95, 158, 160) ;
+    font-size: 28px;
+    border-radius: 7px;
+    padding: 9px;
+    padding-left: 12px;
+    padding-right: 12px ;
+}
+
+footer {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+    /* Funciones de los hipervínculos */
+
+a:active {
+    border: 5px outset rgb(95, 158, 160);
+    color: red;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}

@@ -1,0 +1,95 @@
+body{
+background-image: url(img/fondo.jpg);
+background-repeat: no-repeat;
+}
+
+h1 {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+h3 , h2{
+    background-color: yellow;
+}
+
+#segundo {    
+    display: flex;
+    justify-content:flex-start;
+    width: 54%;
+}
+
+#img1{
+        width: 300px;
+        right: 300px;
+        border-radius: 20px;
+}
+
+main {
+    background-color: violet;
+    width: 50%;
+    float:left;
+}
+
+aside {
+  background-color: teal;
+  width: 50%;
+  float:right;
+}
+
+.PRC{
+    color: white;
+    font-size: 17px;
+}
+
+footer {
+    font-size: 30px;
+    display: block;
+    float: left;
+}
+
+#elección {
+    border: 3px dashed black;
+    border-radius: 18px;
+    padding: 8px;
+    margin: 30px;
+}
+
+ul{
+    font-size: 17px;
+}
+
+.flex {
+    display:flex;
+    justify-content:space-between;
+}
+
+.rolf {
+    display:inline;
+}
+
+/* Funciones de los hipervínculos */
+
+.bordi2  {
+    background-color: #17466d;
+    display: block;
+    float: left;    
+    font-size: 23px;
+    padding: 8px;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: red;
+}
+
+a:hover { 
+    color: yellow;
+}
+
+a:active {
+    border:  4px inset grey ;
+}
